@@ -10,7 +10,7 @@ sudo apt-get install git-all
 git clone --depth 1 https://github.com/wbthomason/packer.nvim ~/.local/share/nvim/site/pack/packer/start/packer.nvim
 
 # curl -sL install-node.vercel.app/lts | bash
-sudo tar -C /usr/local --strip-components 1 -xf ./dependencies/node-v19.0.0-linux-x64.tar.xz
+sudo tar -C /usr/local --strip-components 1 -xf ./dependencies/node-*-linux-x64.tar.xz
 
 # 
 
